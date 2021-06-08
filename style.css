@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+
+body {
+    background: linear-gradient(0deg, rgba(226, 226, 226, 0.886) 0%, rgba(255,255,255,1) 100%)
+!important;
+}
+
+* {
+    scroll-behavior: smooth!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav {
+    opacity: 0.9!important;
+    z-index: 1!important;
+    transition: 0.7s;
+}
+
+.logo {
+    font-family: 'Dancing Script';
+    font-size: 1.6rem;
+    color: black!important;
+}
+
+.first {
+    font-family: 'Dancing Script';
+    position: absolute;
+    top: 12%;
+    text-align: center;
+}
+
+.first h2 {
+    z-index: 2;
+    color: antiquewhite;
+    text-shadow: 1px 3px 2px black;
+    font-size: 4rem;
+}
+
+h4 {
+    color: antiquewhite;
+    font-family: sans-serif;
+    text-shadow: 1px 3px 2px black;
+}
+
+.trait {
+    height: 1px;
+    width: 75%;
+    margin: 5px auto;
+    background-color: #fffae1;
+    box-shadow: 1px 3px 2px black;
+}
+
+.card-group {
+    margin: 15% auto;
+    justify-content: space-around;
+}
+
+.card-group img {
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.card{
+    box-shadow: 1px 2px 8px #111;
+}
+
+.bord {
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.effect {
+    overflow: hidden;
+}
+
+.effect img {
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+    position: relative;
+    margin: 0 auto;
+}
+
+.effect:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.containertitre {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.containertitre h2 {
+    color: burlywood;
+    text-shadow: 1px 1px #111;
+}
+
+.col-md-6 p {
+    letter-spacing: 0.8px;
+    word-spacing: 3px;
+}
+
+.containerform {
+    box-sizing: border-box;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 40px;
+    width: 50%;
+    margin: 80px auto;
+}
+
+footer {
+    width: 100%;
+    background: url(img/bg.jpg) right fixed;
+}
+
+.lien {
+    padding: 0 1rem!important;
+    text-align: left;
+}
+
+footer .row {
+    margin: 0!important;
+}
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: burlywood;
+}
+
+footer ul {
+    margin-top: 5%;
+}
+
+footer span {
+    color: burlywood;
+}
+
+@media screen and (max-width:800px) {
+    .containerform {
+        width: 100%;
+    }
+    .carousel-item img {
+        height: 60vh!important;
+        width: 100%;
+    }
+
+    section div {
+        border-bottom: none!important;
+    }
+    .container2 img {
+        height: 100%!important;
+    }
+    .row {
+        margin: 0!important;
+    }
+}
+
